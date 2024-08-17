@@ -39,5 +39,15 @@ A árvore de decisão utiliza variáveis como faltas, médias finais, e unidades
 
 
 # Regressão
+
+Correlação entre numero_total_de_faltas e medias_finais:
+Coeficiente de correlação de Pearson: -0.49 (negativa)
+
+![a](https://github.com/user-attachments/assets/770b5fab-4057-4d52-acd9-9f458462a1ec)
+
+target: medias_finais.
+
+O modelo de regressão sugere que um aumento no numero total de faltas do aluno está associado a uma diminuição da média final do mesmo.
+
 # Associação
 # Agrupamento
