@@ -43,6 +43,9 @@ A árvore de decisão utiliza variáveis como faltas, médias finais, e unidades
 Correlação entre numero_total_de_faltas e medias_finais:
 Coeficiente de correlação de Pearson: -0.49 (negativa)
 
+Eixo x = media final do aluno com intervalo de 0.0 a 10.0
+Eixo y = numero total de faltas do aluno.
+
 ![gráfico de dispersao](https://github.com/user-attachments/assets/cc121881-069c-42d2-8282-8bf83ff47792)
 
 
