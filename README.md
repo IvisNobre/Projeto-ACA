@@ -35,11 +35,11 @@ Faltas: Um dos primeiros critérios utilizados na árvore é o número total de 
 Média Final: Alunos com médias mais altas têm maior probabilidade de serem classificados como "APROVADO". Por exemplo, médias >= 7 tendem a ser associadas à aprovação.
 
 **Resultados da Previsão:**
-Aprovado: Geralmente, alunos com poucas ou nenhuma falta e uma média final alta (acima de 7, por exemplo) são classificados como "APROVADO".
-Reprovado: Alunos com muitas faltas ou médias finais baixas (abaixo de 5) tendem a ser classificados como "REPROVADO".
-Aprovado por nota: Geralmente, alunos com médias finais entre 5 e 7 e com poucas faltas.
-Reprovado por falta: Alunos que independente das notas e média final tiveram muitas faltas.
-Trancado: A classificação como "TRANCADO" ocorre em casos onde a árvore detecta que o aluno não completou as avaliações ou que há registros indicando um trancamento formal do curso.
+- Aprovado: Geralmente, alunos com poucas ou nenhuma falta e uma média final alta (acima de 7, por exemplo) são classificados como "APROVADO".
+- Reprovado: Alunos com muitas faltas ou médias finais baixas (abaixo de 5) tendem a ser classificados como "REPROVADO".
+- Aprovado por nota: Geralmente, alunos com médias finais entre 5 e 7 e com poucas faltas.
+- Reprovado por falta: Alunos que independente das notas e média final tiveram muitas faltas.
+- Trancado: A classificação como "TRANCADO" ocorre em casos onde a árvore detecta que o aluno não completou as avaliações ou que há registros indicando um trancamento formal do curso.
 
 **Resumo**
 A árvore de decisão utiliza variáveis como faltas, médias finais, e unidades para segmentar os alunos em categorias específicas. Condições como um número elevado de faltas e médias baixas geralmente resultam em reprovação, enquanto médias altas e faltas mínimas levam à aprovação. Casos de trancamento ou indeferimento são identificados com base em registros específicos no conjunto de dados.
