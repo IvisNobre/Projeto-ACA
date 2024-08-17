@@ -63,7 +63,7 @@ Revocação: A revocação é boa, indicando que o modelo identifica quase todos
 
 O modelo é bem equilibrado, com alta acurácia, precisão e revocação.
 
-**Matriz de Confusão do modelo árvore
+**Matriz de Confusão do modelo árvore**
 
 ![image](https://github.com/user-attachments/assets/b483b88a-4d92-4d80-b9e6-4aea3045c5c0)
 
