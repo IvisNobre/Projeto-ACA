@@ -35,7 +35,7 @@ A árvore de decisão utiliza variáveis como faltas, médias finais, e unidades
 
 ### Árvore
 
-![image](https://github.com/user-attachments/assets/7cb27578-9db1-465e-8a8d-1b6e371e4d3d)
+![a](https://github.com/user-attachments/assets/97315998-f45a-4d75-b423-3e100fc342a4)
 
 
 # Regressão
