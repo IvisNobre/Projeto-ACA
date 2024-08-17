@@ -33,6 +33,11 @@ Trancado: A classificação como "TRANCADO" ocorre em casos onde a árvore detec
 ### Resumo
 A árvore de decisão utiliza variáveis como faltas, médias finais, e unidades para segmentar os alunos em categorias específicas. Condições como um número elevado de faltas e médias baixas geralmente resultam em reprovação, enquanto médias altas e faltas mínimas levam à aprovação. Casos de trancamento ou indeferimento são identificados com base em registros específicos no conjunto de dados.
 
+### Árvore
+
+![image](https://github.com/user-attachments/assets/7cb27578-9db1-465e-8a8d-1b6e371e4d3d)
+
+
 # Regressão
 # Associação
 # Agrupamento
