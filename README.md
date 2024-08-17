@@ -42,6 +42,7 @@ Média Final: Alunos com médias mais altas têm maior probabilidade de serem cl
 - Trancado: A classificação como "TRANCADO" ocorre em casos onde a árvore detecta que o aluno não completou as avaliações ou que há registros indicando um trancamento formal do curso.
 
 **Resumo**
+
 A árvore de decisão utiliza variáveis como faltas, médias finais, e unidades para segmentar os alunos em categorias específicas. Condições como um número elevado de faltas e médias baixas geralmente resultam em reprovação, enquanto médias altas e faltas mínimas levam à aprovação. Casos de trancamento ou indeferimento são identificados com base em registros específicos no conjunto de dados.
 
 **Árvore**
