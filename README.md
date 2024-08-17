@@ -1,1 +1,7 @@
-# Projeto-de-An-lise-Computacional-da-Aprendizagem
+# Projeto de  Análise Computacional da Aprendizagem
+
+# Base de dados 
+# Reclassificação
+# Regressão
+# Associação
+# Agrupamento
