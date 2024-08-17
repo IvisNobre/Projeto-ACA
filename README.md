@@ -51,6 +51,23 @@ A árvore de decisão utiliza variáveis como faltas, médias finais, e unidades
 
 ![a](https://github.com/user-attachments/assets/97315998-f45a-4d75-b423-3e100fc342a4)
 
+**Avaliação modelo árvore**
+
+![image](https://github.com/user-attachments/assets/c4815cf8-661c-47f7-97e1-d23c62c2500c)
+
+Acurácia: A acurácia é muito alta, indicando boas previsões.
+
+Precisão: A precisão é boa, mas inferior à acurácia. Ou seja, embora a maioria das previsões positivas estejam corretas, pode haver alguns casos em que o modelo faça previsões positivas incorretas.
+
+Revocação: A revocação é boa, indicando que o modelo identifica quase todos os casos positivos verdadeiros.
+
+O modelo é bem equilibrado, com alta acurácia, precisão e revocação.
+
+**Matriz de Confusão do modelo árvore
+
+![image](https://github.com/user-attachments/assets/b483b88a-4d92-4d80-b9e6-4aea3045c5c0)
+
+
 
 # Regressão
 
