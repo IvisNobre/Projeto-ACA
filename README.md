@@ -40,7 +40,6 @@ A base utilizada se encontra disponível no link: https://dados.ufrn.br/dataset/
 - Reprovado: Alunos com muitas faltas ou médias finais baixas (abaixo de 5) tendem a ser classificados como "REPROVADO".
 - Aprovado por nota: Geralmente, alunos com médias finais entre 5 e 7 e com poucas faltas.
 - Reprovado por falta: Alunos que independente das notas e média final tiveram muitas faltas.
-- Trancado: A classificação como "TRANCADO" ocorre em casos onde a árvore detecta que o aluno não completou as avaliações ou que há registros indicando um trancamento formal do curso.
 
 
 **Resumo**
@@ -49,7 +48,8 @@ A árvore de decisão utiliza variáveis como faltas, médias finais, e unidades
 
 **Árvore**
 
-![a](https://github.com/user-attachments/assets/97315998-f45a-4d75-b423-3e100fc342a4)
+![Arvore](https://github.com/user-attachments/assets/d9350a31-1a38-40e3-9d0c-83f679dbd4d0)
+
 
 **Avaliação modelo árvore**
 
