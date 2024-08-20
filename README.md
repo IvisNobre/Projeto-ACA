@@ -28,7 +28,7 @@ A base utilizada se encontra disponível no link: https://dados.ufrn.br/dataset/
 
 - descricao: Status final do estudante no curso (ex.: "APROVADO", "REPROVADO", "TRANCADO", "INDEFERIDO").
 
-# Reclassificação
+# Classificação
 
 ### Principais Condições para Previsão:
 - Faltas: Um dos primeiros critérios utilizados na árvore é o número total de faltas. Alunos com um número elevado de faltas tendem a ser classificados como "REPROVADO" ou "TRANCADO", dependendo de outros fatores.
