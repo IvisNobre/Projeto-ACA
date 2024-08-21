@@ -120,3 +120,55 @@ O contrário também é válido, se a reposição é falsa, a média final tende
 
 
 # Agrupamento
+
+![image](https://github.com/user-attachments/assets/b36c4915-1370-4da4-8fda-8272aef65030)
+
+
+### Análise:
+Usando K-means, ao aumentar o número de clusters de 2 para 8, o valor do silhouette score diminui, com o melhor valor (0.848) sendo obtido com 2 clusters.
+
+- Com dois Clusters: O valor de 0.848 sugere uma boa separação entre os grupos. Isso significa que os dados foram bem divididos em dois grupos distintos, com as observações dentro de cada cluster sendo mais semelhantes entre si do que com as de outros clusters.
+
+- Mais Clusters: À medida que o número de clusters aumenta, o silhouette score diminui, o que indica que a qualidade da separação entre os clusters está piorando.
+
+Conclusão:
+Com base nessa análise, dividir os dados em dois clusters oferece a melhor separação e, portanto, pode ser a solução mais interpretável, sendo esses os alunos aprovados e reprovados.
+
+
+Segue abaixo os clusters, tendo como eixo_x: numero total de faltas. E no eixo_y: Media Final
+
+- Com 2 clusters
+
+![1](https://github.com/user-attachments/assets/b4608817-1538-47b0-b6d0-49975581f027)
+
+
+- Com 3 clusters
+
+![2](https://github.com/user-attachments/assets/aa31d2d1-fbd5-435c-a67d-2df7598baed5)
+
+
+- Com 4 clusters
+
+![3](https://github.com/user-attachments/assets/c3b6e045-ccc8-41b4-a9e9-8989a1fbf624)
+
+
+- Com 5 clusters
+
+![4](https://github.com/user-attachments/assets/e505bc1e-2533-4c9b-bca2-0b50a896d790)
+
+
+- Com 6 clusters
+
+![5](https://github.com/user-attachments/assets/3c4def4b-a16e-4329-a4da-02315d9217fb)
+
+
+- Com 7 clusters
+
+![6](https://github.com/user-attachments/assets/3aec448d-a694-4b39-a9fc-2446579949f2)
+
+
+- Com 8 clusters
+
+![7](https://github.com/user-attachments/assets/41996963-0613-4b2f-90ec-b97ebd86ced8)
+
+
