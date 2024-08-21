@@ -95,18 +95,39 @@ O modelo é bem equilibrado, com alta acurácia, precisão e revocação.
 
 # Regressão
 
-Correlação entre numero_total_de_faltas e medias_finais:
-Coeficiente de correlação de Pearson: -0.49 (negativa)
+A regressão linear foi utilizada para prever a atuacao_profissional_media de um professor com base na qtd_discentes de suas turmas. O modelo ajusta uma linha de melhor ajuste que relaciona a quantidade de alunos com a média da atuação profissional. Se a quantidade de discentes aumenta, a regressão ajuda a identificar se há uma tendência de melhoria ou piora na avaliação da atuação profissional do docente. A precisão do modelo é avaliada com métricas como MSE, RMSE e MAE, permitindo compreender o impacto do tamanho da turma na média de atuação profissional do professor.
 
-Eixo x = media final do aluno com intervalo de 0.0 a 10.0
-Eixo y = numero total de faltas do aluno.
+Atributos:  Postura Profissional DP, atuação Profissinonal Dp, Postura Profissional Media, autoavaliação do aluno media, autoavaliação do aluno dp, e quantidade de discentes
 
-![gráfico de dispersao](https://github.com/user-attachments/assets/cc121881-069c-42d2-8282-8bf83ff47792)
+Target: Atuação Profissional Media
+
+### Análise do Modelo Linear Regression
+O modelo de regressão linear apresenta uma boa performance:
+- MSE (0.086) e RMSE (0.293) indicam erros pequenos nas previsões.
+- MAE (0.181) sugere uma média de erro absoluto baixa.
+- MAPE (2.2%) mostra que as previsões têm um erro médio de 2.2% em relação aos valores reais, indicando alta precisão.
+- R² (0.857) indica que o modelo explica 85.7% da variabilidade na atuacao_profissional_media.
+
+![Captura de tela 2024-08-21 145312](https://github.com/user-attachments/assets/c22555ac-260e-4395-a3bc-70c8069c9c45)
+
+### Predições
+
+- Print de predições 1
+
+![Captura de tela 2024-08-21 150144](https://github.com/user-attachments/assets/637a3b3f-fbb2-48aa-b29e-0e9d00383472)
+
+- Print de Predições 2
+
+![Captura de tela 2024-08-21 150058](https://github.com/user-attachments/assets/90c93b73-40aa-40be-afc1-cbb5d6b0e3e4)
 
 
-target: medias_finais.
+### Gráfico de Dispersão
 
-O modelo de regressão sugere que um aumento no numero total de faltas do aluno está associado a uma diminuição da média final do mesmo.
+Com coeficiente de Pearson de -0,19, sugere uma correlação negativa fraca entre as variáveis.
+Isso significa que, à medida que o número de discentes aumenta, há uma ligeira tendência de diminuição na avaliação média, mas essa tendência é fraca.
+
+![Gráfico_Dispersao](https://github.com/user-attachments/assets/cce6a7c6-719f-4771-ad12-187289ea153c)
+
 
 # Associação
 
@@ -144,6 +165,8 @@ O contrário também é válido, se a reposição é falsa, a média final tende
 
 
 # Agrupamento
+
+Para realizar o agrupamento foi utilizado a base de dados de Matriculas, no entanto, foi filtrada para o curso de id 2000005 para analisar possíveis agrupamentos de alunos em relação a media final e o número total de faltas.
 
 ![image](https://github.com/user-attachments/assets/b36c4915-1370-4da4-8fda-8272aef65030)
 
