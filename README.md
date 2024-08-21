@@ -39,17 +39,17 @@ A base utilizada se encontra disponível no link: https://dados.ufrn.br/dataset/
 ### Estrutura da Base de Dados Avaliação Docência:
 
 - id_docente e nome_docente: Identificam o professor.
-- 
+  
 - id_turma: Identifica a turma em que as avaliações foram feitas.
-- 
+  
 - ano e periodo: Correspondem ao ano e semestre em que as aulas ocorreram.
-- 
+  
 - qtd_discentes: Quantidade de alunos na turma.
-- 
+  
 - postura_profissional_media e postura_profissional_DP: Avaliação média da postura profissional do professor e seu desvio-padrão.
-- 
+  
 - atuacao_profissional_media e atuacao_profissional_DP: Avaliação média da atuação profissional do professor e seu desvio-padrão.
-- 
+  
 - autoavaliacao_aluno_media e autoavaliacao_aluno_DP: Média da autoavaliação dos alunos e seu desvio-padrão.
 
 # Classificação
