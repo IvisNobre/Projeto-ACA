@@ -219,3 +219,18 @@ Segue abaixo os clusters, tendo como eixo_x: numero total de faltas. E no eixo_y
 ![7](https://github.com/user-attachments/assets/41996963-0613-4b2f-90ec-b97ebd86ced8)
 
 
+# CONCLUSÃO DO PROJETO
+
+O projeto avaliou diversas dimensões do desempenho acadêmico e da atuação docente na UFRN, utilizando múltiplas técnicas de análise de dados para obter insights significativos.
+
+- Classificação com Árvore de Decisão: A árvore de decisão demonstrou alta acurácia, precisão e revocação, evidenciando uma boa capacidade de prever a classificação dos alunos com base em suas faltas e médias finais. A árvore segmentou os alunos efetivamente em categorias de aprovação, reprovação e outras condições, proporcionando um modelo confiável para entender os resultados acadêmicos.
+
+- Regressão Linear: A análise de regressão linear revelou uma boa performance na previsão da atuacao_profissional_media dos docentes com base no número de discentes. O modelo apresentou erros pequenos, uma alta precisão e explicou 85.7% da variabilidade na avaliação da atuação profissional dos professores. A correlação negativa fraca sugere que, embora haja uma tendência de diminuição na avaliação com o aumento do número de alunos, essa relação é limitada.
+
+- Regras de Associação: As regras de associação identificaram fortes relações entre a média final dos alunos, o número de faltas e a necessidade de reposição. As análises mostraram que alunos com médias finais altas e poucas faltas têm menor probabilidade de precisar de reposição, o que reflete a importância de manter um bom desempenho acadêmico e frequência regular.
+
+- Agrupamento com K-means: O agrupamento utilizando K-means demonstrou que dois clusters proporcionaram a melhor separação dos dados, distinguindo efetivamente entre alunos aprovados e reprovados. A qualidade da separação diminuiu ao aumentar o número de clusters, indicando que um modelo com dois clusters é mais interpretável e eficiente para categorizar os alunos em relação à média final e ao número de faltas.
+
+
+
+
