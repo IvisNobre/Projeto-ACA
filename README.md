@@ -1,12 +1,14 @@
 # Projeto de  Análise Computacional da Aprendizagem
 
-# Base de dados
+# Bases de dados
 
-A base de dados que apresenta registros acadêmicos dos estudantes da UFRN, ano 2021 do 1° semestre, contendo informações sobre suas notas, faltas e status final em um curso específico. 
+## Base de dados: Matriculas 2021.1
+
+A primeira base de dados que apresenta registros acadêmicos dos estudantes da UFRN, ano 2021 do 1° semestre, contendo informações sobre suas notas, faltas e status final em um curso específico. 
 
 A base utilizada se encontra disponível no link: https://dados.ufrn.br/dataset/matriculas-componentes/resource/ffd73a99-325b-4835-9338-036be30fdec8
 
-### Estrutura da Base de Dados:
+### Estrutura da Base de Dados Matriculas:
 
 - id_turma: Identificador da turma na qual o estudante está matriculado.
 
@@ -27,6 +29,28 @@ A base utilizada se encontra disponível no link: https://dados.ufrn.br/dataset/
 - numero_total_faltas: Total de faltas acumuladas pelo estudante ao longo do curso.
 
 - descricao: Status final do estudante no curso (ex.: "APROVADO", "REPROVADO", "TRANCADO", "INDEFERIDO").
+
+## Base de Dados: Avaliação Docência
+
+Essa base de dados contém informações sobre a avaliações dos professores da UFRN, ao longo de várias turmas e períodos. As variáveis principais incluem:
+
+A base utilizada se encontra disponível no link: https://dados.ufrn.br/dataset/d5723d75-7e6e-4264-82aa-b96909b69f63/resource/7accd1d2-2793-460e-b98d-87a0679b9155/download/avaliacaodocencia.csv
+
+### Estrutura da Base de Dados Avaliação Docência:
+
+- id_docente e nome_docente: Identificam o professor.
+- 
+- id_turma: Identifica a turma em que as avaliações foram feitas.
+- 
+- ano e periodo: Correspondem ao ano e semestre em que as aulas ocorreram.
+- 
+- qtd_discentes: Quantidade de alunos na turma.
+- 
+- postura_profissional_media e postura_profissional_DP: Avaliação média da postura profissional do professor e seu desvio-padrão.
+- 
+- atuacao_profissional_media e atuacao_profissional_DP: Avaliação média da atuação profissional do professor e seu desvio-padrão.
+- 
+- autoavaliacao_aluno_media e autoavaliacao_aluno_DP: Média da autoavaliação dos alunos e seu desvio-padrão.
 
 # Classificação
 
